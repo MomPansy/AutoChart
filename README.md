@@ -38,7 +38,7 @@ This project requires certain Python packages to be installed. These dependencie
    Change into the repository directory:
 
    ```bash
-   cd YourRepositoryName
+   cd WhisperFineTune
    ```
 
 3. **Create a Virtual Environment (Optional but Recommended)**:
