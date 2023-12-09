@@ -20,6 +20,54 @@ The evaluations of the model and detailed training metrics can be found on our H
 - Ensure you have Python installed on your system.
 - The code is designed to run with Google Drive mounted on macOS. If you're using a different operating system, modifications might be necessary.
 
+### Installation
+
+Before running the project, you'll need to install the necessary dependencies.
+
+#### Installing Dependencies
+This project requires certain Python packages to be installed. These dependencies are listed in the `requirements.txt` file. To install them, follow these steps:
+
+1. **Clone the Repository**:
+   If you haven't already, clone the repository to your local machine:
+
+   ```bash
+   git clone https://github.com/MomPansy/WhisperFineTune.git
+   ```
+
+2. **Navigate to the Repository Directory**:
+   Change into the repository directory:
+
+   ```bash
+   cd YourRepositoryName
+   ```
+
+3. **Create a Virtual Environment (Optional but Recommended)**:
+   It's a good practice to use a virtual environment for your Python projects. Create one using:
+
+   ```bash
+   python -m venv venv
+   ```
+
+   Activate it with:
+
+   - On Windows:
+     ```bash
+     .\venv\Scripts\activate
+     ```
+   - On macOS and Linux:
+     ```bash
+     source venv/bin/activate
+     ```
+
+4. **Install the Dependencies**:
+   Install all required packages with the following command:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+Now, your environment should be set up with all the dependencies needed for the project.
+
 ### Running the Code
 1. Clone the repository to your local machine.
 2. Navigate to the repository's preprocessing-pipeline directory in the command line.
