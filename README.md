@@ -82,4 +82,19 @@ Now, your environment should be set up with all the dependencies needed for the 
 ### Note
 The current implementation is tailored for macOS with Google Drive integration. If you are using a different operating system or cloud storage solution, you will need to adjust the file paths and storage configurations accordingly.
 
-This README now includes a reference to your Hugging Face repository for model evaluations and training metrics. Make sure to provide the correct link to the training pipeline notebook and any other relevant resources.
+Certainly! Here's an addition to your README to include information about your transcription app:
+
+---
+
+## Transcription App
+
+For a practical demonstration of the fine-tuned Whisper model in action, you can view and interact with our transcription app. This web-based application allows users to experience the capabilities of the model with Singaporean English.
+
+### Accessing the App
+The transcription app is hosted on Hugging Face Spaces. You can access it at the following URL:
+
+[WhisperFineTune Transcription App](https://huggingface.co/spaces/Mompansy/WhisperFineTune)
+
+Feel free to test the app with your own audio samples to see how effectively the model transcribes Singaporean English.
+
+
