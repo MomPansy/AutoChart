@@ -1,7 +1,3 @@
-Certainly! Here's the updated README with the addition of the section about model evaluations and training metrics:
-
----
-
 # Fine-Tuning OpenAI's Whisper Model on Singaporean English
 
 ## Project Overview
@@ -10,10 +6,10 @@ This project aims to fine-tune OpenAI's Whisper model to better understand and t
 ## Pipeline Flow
 
 ### Data Preprocessing
-The preprocessing stage involves downloading files from a Dropbox link specified in the code. This link will vary depending on the specific section of the dataset being used. To initiate the preprocessing, run the main file under the `preprocessing-pipeline` directory.
+The preprocessing stage involves downloading files from a Dropbox link specified in the code. This link will vary depending on the specific section of the dataset being used. To initiate the preprocessing, run the main file under the `preprocessing-pipeline` directory. The details of this process can be viewed in the `DataProcessingPipeline.ipynb` notebook in the repository. 
 
 ### Training Pipeline
-After preprocessing, we move on to the training pipeline. The training process is conducted on a fraction of the dataset for demonstration purposes. The details of this process can be viewed in the `Training_pipeline.ipynb` notebook in the repository. [Training Pipeline Notebook](link-to-training-pipeline-in-repo)
+After preprocessing, we move on to the training pipeline. The training process is conducted on a fraction of the dataset for demonstration purposes. The details of this process can be viewed in the `Training_pipeline.ipynb` notebook in the repository. 
 
 ### Model Evaluations and Training Metrics
 The evaluations of the model and detailed training metrics can be found on our Hugging Face repository: [Hugging Face Repository - whisperfinetune_modelcheckpoints](https://huggingface.co/Mompansy/whisperfinetune_modelcheckpoints). This includes performance metrics, model checkpoints, and other relevant evaluation data.
