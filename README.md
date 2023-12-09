@@ -82,8 +82,6 @@ Now, your environment should be set up with all the dependencies needed for the 
 ### Note
 The current implementation is tailored for macOS with Google Drive integration. If you are using a different operating system or cloud storage solution, you will need to adjust the file paths and storage configurations accordingly.
 
-Certainly! Here's an addition to your README to include information about your transcription app:
-
 ---
 
 ## Transcription App
