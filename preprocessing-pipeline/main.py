@@ -49,7 +49,7 @@ def main():
     utilsPreprocess.save_dataset(prepared_dataset, save_path)
     print(f"Dataset saved to {save_path}")
 
-    google_drive_path = '/Users/jayden/Library/CloudStorage/GoogleDrive-jaydenyeo.acs@gmail.com/My Drive'
+    google_drive_path = 'YOUR_GOOGLE_DRIVE_PATH'
     save_path = os.path.join(google_drive_path, 'whisperfinetune_preprocessed_datav2')
     prepared_dataset.save_to_disk(save_path)
 
