@@ -4,6 +4,9 @@ Our project, **AutoChart**, is inspired by the critical challenges faced by the 
 
 [![Video Demo](/AutoChart youtube thumbnail.png "video thumbnail")](https://youtu.be/jkdnGzCvt2w)
 
+[![Video Demo]          // Title
+(/AutoChart youtube thumbnail.png)] // Thumbnail
+(https://www.youtube.com/jkdnGzCvt2w "Auto Chart Demo")    // Video Link
 
 ## Inspiration
 
