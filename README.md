@@ -2,7 +2,12 @@
 
 Our project, **AutoChart**, is inspired by the critical challenges faced by the Emergency and Family Medicine Departments, characterized by a severe manpower shortage leading to prolonged patient wait times and doctor burnout. **AutoChart** aims to alleviate these pressures by streamlining medical documentation processes.
 
-[<img src="/AutoChart youtube thumbnail (1).png" width="50%">](https://www.youtube.com/jkdnGzCvt2w "Auto Chart Demo")
+<p align="center">
+  <a href="https://www.youtube.com/jkdnGzCvt2w" title="Auto Chart Demo">
+    <img src="/AutoChart youtube thumbnail (1).png">
+  </a>
+</p>
+
 
 ## Inspiration
 
