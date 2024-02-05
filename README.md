@@ -15,6 +15,9 @@ Our goal is to lighten doctors' workloads and expedite patient treatment with ou
 - **Transcribing** the conversation using OpenAI's Whisper model.
 - **Organizing** the transcription into a structured medical chart with the help of OpenAI's GPT-4 model.
 
+![Screenshot of my project]("photo_2024-02-06_00-34-00.jpg")
+
+
 ## How We Built It
 
 Our development process included:
