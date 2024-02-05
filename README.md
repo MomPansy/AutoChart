@@ -56,6 +56,11 @@ Moving forward, we aim to:
 
 **AutoChart** represents a significant step forward in addressing the pressing challenges within the healthcare documentation process. By leveraging advanced AI technologies, we envision a future where healthcare professionals can focus more on patient care and less on administrative tasks.
 
+## Application 
+[AutoChart Medical Charting](https://huggingface.co/spaces/Mompansy/AutoChart)
+
+The link to the huggingface repo is here, it is set to private as it is using my personal openAI api so if you would like to try the app for yourself please contact me.
+
 ---
 
 # Fine-Tuning OpenAI's Whisper Model on Singaporean English
