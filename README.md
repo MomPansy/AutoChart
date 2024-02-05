@@ -68,6 +68,8 @@ Moving forward, we aim to:
 
 The link to the huggingface repo is here, it is set to private as it is using my personal openAI api so if you would like to try the app for yourself please contact me.
 
+[Sample conversation used in the demo](/20240205_012532253.mp3)
+
 ---
 
 # Fine-Tuning OpenAI's Whisper Model on Singaporean English
