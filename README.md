@@ -1,3 +1,60 @@
+# Introduction
+
+Our project, **AutoChart**, is inspired by the critical challenges faced by the Emergency and Family Medicine Departments, characterized by a severe manpower shortage leading to prolonged patient wait times and doctor burnout. **AutoChart** aims to alleviate these pressures by streamlining medical documentation processes.
+
+## Inspiration
+
+The heartbreak over manpower shortages in critical healthcare departments motivated us. These shortages result in patients enduring long wait times in discomfort and doctors experiencing extreme burnout, primarily due to the overwhelming burden of charting and medical documentation.
+
+Our goal is to lighten doctors' workloads and expedite patient treatment with our innovative solution.
+
+## What It Does
+
+**AutoChart** transforms doctor-patient conversations into transcribed, well-organized, medically precise charts. This process involves:
+
+- **Transcribing** the conversation using OpenAI's Whisper model.
+- **Organizing** the transcription into a structured medical chart with the help of OpenAI's GPT-4 model.
+
+## How We Built It
+
+Our development process included:
+
+- **Leveraging OpenAI's Whisper Model**: Fine-tuned for Singaporean English using the [Singapore ASR dataset](https://www.imda.gov.sg/how-we-can-help/national-speech-corpus).
+- **Utilizing OpenAI's GPT-4**: For formatting the conversation into a medical chart.
+
+## Challenges We Ran Into
+
+- The **size of the ASR dataset** was formidable at 1.5TB, leading us to use only a small sample.
+- **Data transformation** required converting pure audio data into an amplitude array at a 16000Hz sampling rate, demanding significant computational resources.
+- **Extended training time** for the Whisper model due to its complexity and the high computational resources required.
+
+## Accomplishments We're Proud Of
+
+- **Successful Application Implementation**: Hosted on Huggingface Spaces.
+- **Effective Training**: Achieved with the Whisper model.
+
+## What We Learned
+
+Our journey taught us valuable lessons in audio data processing, including:
+
+- Transforming audio data into an amplitude array.
+- Utilizing the log-mel spectrogram to reduce audio data dimensionality.
+- Fine-tuning the Whisper model for enhanced audio data interpretation.
+
+## What's Next for AutoChart
+
+Moving forward, we aim to:
+
+- **Collaborate with Medical Professionals**: To refine the document's precision.
+- **Explore Integration Opportunities**: In hospitals and clinical settings.
+- **Pursue Regulatory Approvals**: Such as FDA/ISO13485 certifications, to facilitate medical industry adoption.
+
+## Conclusion
+
+**AutoChart** represents a significant step forward in addressing the pressing challenges within the healthcare documentation process. By leveraging advanced AI technologies, we envision a future where healthcare professionals can focus more on patient care and less on administrative tasks.
+
+---
+
 # Fine-Tuning OpenAI's Whisper Model on Singaporean English
 
 ## Project Overview
@@ -24,50 +81,6 @@ The evaluations of the model and detailed training metrics can be found on our H
 
 Before running the project, you'll need to install the necessary dependencies.
 
-#### Installing Dependencies
-This project requires certain Python packages to be installed. These dependencies are listed in the `requirements.txt` file. To install them, follow these steps:
-
-1. **Clone the Repository**:
-   If you haven't already, clone the repository to your local machine:
-
-   ```bash
-   git clone https://github.com/MomPansy/WhisperFineTune.git
-   ```
-
-2. **Navigate to the Repository Directory**:
-   Change into the repository directory:
-
-   ```bash
-   cd WhisperFineTune
-   ```
-
-3. **Create a Virtual Environment (Optional but Recommended)**:
-   It's a good practice to use a virtual environment for your Python projects. Create one using:
-
-   ```bash
-   python -m venv venv
-   ```
-
-   Activate it with:
-
-   - On Windows:
-     ```bash
-     .\venv\Scripts\activate
-     ```
-   - On macOS and Linux:
-     ```bash
-     source venv/bin/activate
-     ```
-
-4. **Install the Dependencies**:
-   Install all required packages with the following command:
-
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-Now, your environment should be set up with all the dependencies needed for the project.
-
 ### Running the Code
 1. Clone the repository to your local machine.
 2. Navigate to the repository's preprocessing-pipeline directory in the command line.
@@ -83,13 +96,6 @@ Now, your environment should be set up with all the dependencies needed for the 
 The current implementation is tailored for macOS with Google Drive integration. If you are using a different operating system or cloud storage solution, you will need to adjust the file paths and storage configurations accordingly.
 
 ---
-
-## Transcription App
-
-For a practical demonstration of the fine-tuned Whisper model in action, you can view and interact with our transcription app. This web-based application allows users to experience the capabilities of the model with Singaporean English.
-
-### Accessing the App
-The transcription app is hosted on Hugging Face Spaces. You can access it at the following URL:
 
 [WhisperFineTune Transcription App](https://huggingface.co/spaces/Mompansy/WhisperFineTune)
 
